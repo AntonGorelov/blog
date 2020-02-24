@@ -28,6 +28,10 @@ gem 'rack-cors'
 # ActiveModel::Serializers allows you to generate your JSON in an object-oriented and convention-driven manner.
 gem 'active_model_serializers', '~> 0.10.2'
 
+# Simple, multi-client and secure token-based authentication.
+gem 'devise_token_auth'
+gem 'omniauth'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
